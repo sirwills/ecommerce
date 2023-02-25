@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.main-nav {
+  background-color: black;
+  height: 12vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+}
+
+.main-nav .left-container {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 50%;
+  margin-left: 5%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-nav .left-container a {
+  margin: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main-nav .left-container a:hover {
+  text-decoration: underline;
+}
+
+.main-nav .left-container img {
+  height: 50px;
+  width: 50;
+}
+
+.main-nav .right-container {
+  margin-right: 5%;
+  text-decoration: none;
+}
+
+.main-nav .right-container a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.main-nav .right-container .top-trial-btn {
+  height: 50px;
+  width: 150px;
+  font-size: 17px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.main-section {
+  height: 80vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.main-section .main-left-container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  background-color: #f0f1f2;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding-left: 8%;
+  padding-right: 5%;
+}
+
+.main-section .main-left-container .main-left-trialButton {
+  height: 50px;
+  width: 300px;
+  border-radius: 6px;
+  border: none;
+  background-color: #008060;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.main-section .main-left-container h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.main-section .main-left-container p {
+  font-size: 20px;
+}
+
+.main-section .main-right-container {
+  width: 50%;
+  height: 80vh;
+  background-image: url(./shopi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article-nav {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.article-nav a {
+  color: #6b718c;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
